@@ -1,5 +1,6 @@
 // minimum system requirement: Windows 2000: (enables GetFileSizeEx)
 #define _WIN32_WINNT 0x0500
+#define FSCTL_ALLOW_EXTENDED_DASD_IO 0x90083
 
 #include <string.h>
 #include <cstdlib>
